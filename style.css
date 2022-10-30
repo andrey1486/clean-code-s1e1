@@ -17,12 +17,6 @@
   font-family: fantasy, cursive;
 }
  
-@media (max-width: 768px) {
-  .sponsor {
-    text-align: center;
-  }
-}
-
 .centered-element {
   display: block;
   width: 500px;
@@ -33,7 +27,7 @@
   flex: 1;
 }
 .task {
-  /* width: 56%; */
+  
   display: inline-block;
   flex-grow: 1;
 }
@@ -145,4 +139,10 @@
 }
 .task.edit-mode .name {
   display: none;
+}
+
+@media (max-width: 768px) {
+  .sponsor {
+    text-align: center;
+  }
 }

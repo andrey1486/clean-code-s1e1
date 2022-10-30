@@ -4,25 +4,24 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.sponsor {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.sponsor img {
   width: 100%;
 }
-.aaa .more_inf {
+.sponsor .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .aaa {
+  .sponsor {
     text-align: center;
   }
 }
-
 .centered-main-page-element {
   display: block;
   width: 500px;

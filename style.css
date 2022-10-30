@@ -16,11 +16,13 @@ body {
 .aaa .more_inf {
   font-family: fantasy, cursive;
 }
-@media (max-width:768px) {
-.aaa { 
-  text-align: center;
+
+@media (max-width: 768px) {
+  .aaa {
+    text-align: center;
+  }
 }
-}
+
 .centered-main-page-element {
   display: block;
   width: 500px;
@@ -29,20 +31,22 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .task-row-wrapper {
   display: flex;
 }
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
-li, h3 {
-  list-style:none;
+li,
+h3 {
+  list-style: none;
 }
-input,button{
-  outline:none;
+input,
+button {
+  outline: none;
 }
 button {
   background: none;
@@ -58,7 +62,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for=new-task] {
+label[for='new-task'] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -67,24 +71,23 @@ label[for=new-task] {
   margin: 0;
   text-transform: uppercase;
 }
-input[type=text] {
+input[type='text'] {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
+  border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
 }
-input[type=text]:focus {
+input[type='text']:focus {
   color: #333;
 }
-
 /* New Task */
-label[for=new-task] {
+label[for='new-task'] {
   display: block;
   margin: 0 0 20px;
 }
@@ -103,8 +106,7 @@ li {
 li > * {
   vertical-align: middle;
 }
-
-li > input[type=checkbox] {
+li > input[type='checkbox'] {
   margin: 0 10px;
 }
 li > label {
@@ -113,8 +115,8 @@ li > label {
   font-size: 18px;
   width: 226px;
 }
-li > input[type=text] {
-  width: 226px
+li > input[type='text'] {
+  width: 226px;
 }
 button.delete img {
   height: 2em;
@@ -126,17 +128,17 @@ button.delete img:hover {
 }
 /* Completed */
 ul#completed-tasks label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 /* Edit Task */
-ul li input[type=text] {
-  display:none
+ul li input[type='text'] {
+  display: none;
 }
-ul li.editMode input[type=text] {
-  display:inline-block;
-  width:224px
+ul li.edit-mode input[type='text'] {
+  display: inline-block;
+  width: 224px;
 }
-ul li.editMode label {
-  display:none;
+ul li.edit-mode label {
+  display: none;
 }
